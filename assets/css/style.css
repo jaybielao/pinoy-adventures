@@ -38,6 +38,7 @@ header a {
 h1 {
     font-family: 'Rock Salt', sans-serif;
     text-transform: uppercase;
+    text-align: center;
 }
 
 #menu {
@@ -46,12 +47,23 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 2em;
 }
 
 .active {
+    /* underlines the active page from nav menu*/
     border-bottom: 1px dotted #023047;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #f7f7ff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #023047;
 }
 
 /* Main content */
