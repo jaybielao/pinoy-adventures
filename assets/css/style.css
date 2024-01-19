@@ -14,19 +14,19 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #023047;
+    color: #f7f7ff;
     font-family: 'Ninuto', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: #f7f7ff;
+    background-color: #023047;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     /* make header fill full screen again*/
     width: 100%;
-    box-shadow: 0 2px 2px #023047;
+    box-shadow: 0 2px 2px #f7f7ff;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -42,7 +42,7 @@ h1 {
     font-family: 'Rock Salt', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    color: #023047;
+    color: #f7f7ff;
     font-size: 100%;
 }
 
@@ -58,17 +58,17 @@ h1 {
 
 .active {
     /* underlines the active page from nav menu*/
-    border-bottom: 1px dotted #023047;
+    border-bottom: 1px dotted #f7f7ff;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #f7f7ff;
+    background-color: #023047;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #023047;
+    box-shadow: 0 2px 2px #f7f7ff;
     display: none;
     top: 100%;
 }
@@ -87,10 +87,16 @@ nav {
 }
 /* Main content */
 main {
-    background-color: #FFB703;
     /* Make main element take up surplus space and push footer down*/
     flex: 1 0 auto;
     margin-top: 41px;
+}
+
+/* Hero section*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/island-view.webp") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -153,6 +159,6 @@ main {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
-        border-bottom: 1px dashed #023047;
+        border-bottom: 1px dashed #f7f7ff;
     }
 }
