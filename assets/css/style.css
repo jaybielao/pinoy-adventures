@@ -94,10 +94,24 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: #FB8500;
+#social-networks {
+    text-align: center;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style-type: none;
 }
 
+#social {
+    margin-right: 10px;
+}
+
+
+#back-top {
+    margin-right: 0;
+    margin-left: auto;
+}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
