@@ -27,6 +27,9 @@ header {
     /* make header fill full screen again*/
     width: 100%;
     box-shadow: 0 2px 2px #023047;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -64,8 +67,22 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #023047;
+    display: none;
+    top: 100%;
 }
 
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 3rem;
+}
 /* Main content */
 main {
     background-color: #FFB703;
