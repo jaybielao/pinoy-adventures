@@ -42,6 +42,8 @@ h1 {
     font-family: 'Rock Salt', sans-serif;
     text-transform: uppercase;
     text-align: center;
+    color: #023047;
+    font-size: 100%;
 }
 
 #menu {
@@ -51,7 +53,7 @@ h1 {
 }
 
 #menu>li {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .active {
@@ -81,16 +83,62 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 /* Main content */
 main {
     background-color: #FFB703;
     /* Make main element take up surplus space and push footer down*/
     flex: 1 0 auto;
+    margin-top: 41px;
 }
 
 /* Footer */
 footer {
     background-color: #FB8500;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+        width: 100px;   
+        text-align: center;     
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 180%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accomodate larger header on tablet screens*/
+        margin-top: 95px;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px dashed #023047;
+    }
 }
