@@ -137,21 +137,30 @@ main {
     margin: 20px auto;
 }
 
-#regions > h2 {
+#regions h2 {
     margin-bottom: 2px;
     text-align: center;
-    font-size: 100%;
+    font-size: 130%;
+    text-transform: capitalize;
 }
-
-#regions > hr {
-    border: unset;
+#regions h3 {
+    font-size: 90%;
+}
+hr {
     border-top: 1px solid #565554;
     margin: 5px 0;
 }
 
-#luzon {
-
+#luzon, #visayas, #mindanao {
+    line-height: 20px;
+    margin-bottom: 20px;
 }
+
+#regions p {
+    padding: 0 20px;
+}
+
+
 
 
 
