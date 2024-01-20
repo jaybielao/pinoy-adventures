@@ -26,11 +26,6 @@ h1, h2, h3 {
     font-size: 100%;
 }
 
-p {
-    
-}
-
-
 /* Header */
 header {
     background-color: #023047;
@@ -93,14 +88,14 @@ nav {
 
 /* Main content */
 main {
-    /*background-color: #8ECAE6;*/
+    background-color: #8ECAE6;
     /* Make main element take up surplus space and push footer down*/
     flex: 1 0 auto;
     margin-top: 41px;
 }
 
-.rainbow-text {
-    background-image: linear-gradient(to right, violet, yellow, orange, red);
+.rainbow-text { /* Rainbow text */
+    background-image: linear-gradient(to right, violet, yellow, orange, red); /* removed blue, green and indigo */
     /* Makes text transparent, to reveal background gradient */
     -webkit-background-clip: text; 
     color: transparent;
@@ -128,14 +123,42 @@ main {
     padding-left: 10px;
 }
 
-hr {
+#hr1 {
     /* visual separation from hero to the rest of the body*/
     border: none;
-    border-width: 3px; 
     background-color: #565554;
+    padding: 3px;
     margin: 10px 20px; /* Add margin for spacing */
-    border-style: double;
+    border-style: groove;
 }
+
+#regions {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#regions > h2 {
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 100%;
+}
+
+#regions > hr {
+    border: unset;
+    border-top: 1px solid #565554;
+    margin: 5px 0;
+}
+
+#luzon {
+
+}
+
+
+
+
+
+
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -202,7 +225,10 @@ hr {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    /* hover effect */
     #menu a:hover {
         border-bottom: 1px dashed #f7f7ff;
     }
+
+
 }
