@@ -18,7 +18,9 @@ body {
     font-family: 'Ninuto', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Rock Salt', sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -94,10 +96,12 @@ main {
     margin-top: 41px;
 }
 
-.rainbow-text { /* Rainbow text */
-    background-image: linear-gradient(to right, violet, yellow, orange, red); /* removed blue, green and indigo */
+.rainbow-text {
+    /* Rainbow text */
+    background-image: linear-gradient(to right, violet, yellow, orange, red);
+    /* removed blue, green and indigo */
     /* Makes text transparent, to reveal background gradient */
-    -webkit-background-clip: text; 
+    -webkit-background-clip: text;
     color: transparent;
     /* ensures the color only covers the width of the text */
     display: inline-block;
@@ -128,7 +132,8 @@ main {
     border: none;
     background-color: #565554;
     padding: 3px;
-    margin: 10px 20px; /* Add margin for spacing */
+    margin: 10px 20px;
+    /* Add margin for spacing */
     border-style: groove;
 }
 
@@ -143,15 +148,19 @@ main {
     font-size: 130%;
     text-transform: capitalize;
 }
+
 #regions h3 {
     font-size: 90%;
 }
+
 hr {
     border-top: 1px solid #565554;
     margin: 5px 0;
 }
 
-#luzon, #visayas, #mindanao {
+#luzon,
+#visayas,
+#mindanao {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -160,9 +169,22 @@ hr {
     padding: 0 20px;
 }
 
+#smooth-edge-bg {
+    background: url("../images/pi-main-regions.webp") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* smooth the edges of the square image*/
+    border-radius: 10%;
+    max-width: 300px;
+    max-height: 300px;
+}
 
-
-
+#regions-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -234,6 +256,7 @@ hr {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
     /* hover effect */
     #menu a:hover {
         border-bottom: 1px dashed #f7f7ff;
