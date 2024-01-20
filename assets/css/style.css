@@ -262,7 +262,7 @@ hr {
     width: 90vw;
     margin-bottom: 20px;
     /* smooth the edges of the square image*/
-    border-radius: 10%;
+    border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
 }
@@ -273,7 +273,7 @@ hr {
     width: 90vw;
     margin-bottom: 20px;
     /* smooth the edges of the square image*/
-    border-radius: 10%;
+    border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
 }
@@ -284,7 +284,7 @@ hr {
     width: 90vw;
     margin-bottom: 20px;
     /* smooth the edges of the square image*/
-    border-radius: 10%;
+    border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
 }

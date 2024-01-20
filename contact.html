@@ -36,7 +36,49 @@
     </header>
 
     <!-- Main Content -->
-    <main>Main content</main>
+    <main>
+        VIDEO
+        <form action="https://formdump.codeinstitute.net" method="post">
+            <fieldset>
+                <legend>Your details</legend>
+                <div>
+                    <label for="name-field">Name</label>
+                    <input type="text" id="name-field" name="full_name" placeholder="Your name" required>
+                </div>
+                <div>
+                    <label for="email-field">Email</label>
+                    <input type="email" id="email-field" name="email" placeholder="Your email" required>
+                </div>
+                <label for="age">Age</label>
+                <select name="age" id="age">
+                    <option value="20s">20-29</option>
+                    <option value="30s">30-39</option>
+                    <option value="40s">40-49</option>
+                    <option value="50s">50-59</option>
+                    <option value="60+">60+</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Interest</legend>
+                <p>select one or more</p>
+                <input type="checkbox" id="fest-checkbox" name="festival">
+                <label for="fest-checkbox">Festival</label>
+                <input type="checkbox" id="swim-checkbox" name="swim">
+                <label for="swim-checkbox">Swim</label>
+                <input type="checkbox" id="hike-checkbox" name="hike">
+                <label for="hike-checkbox">Hike</label>
+                <input type="checkbox" id="beach-checkbox" name="beach">
+                <label for="beach-checkbox">Beach</label>
+                <input type="checkbox" id="nature-checkbox" name="nature">
+                <label for="nature-checkbox">Nature</label>
+                <input type="checkbox" id="food-checkbox" name="food">
+                <label for="food-checkbox">Food</label>
+            </fieldset>
+            <button type="submit">
+                <strong>Send message</strong>
+            </button>
+        </form>
+    </main>
 
     <!-- Footer -->
     <footer>
