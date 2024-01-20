@@ -26,6 +26,10 @@ h1, h2, h3 {
     font-size: 100%;
 }
 
+p {
+    
+}
+
 
 /* Header */
 header {
@@ -89,9 +93,20 @@ nav {
 
 /* Main content */
 main {
+    /*background-color: #8ECAE6;*/
     /* Make main element take up surplus space and push footer down*/
     flex: 1 0 auto;
     margin-top: 41px;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to right, violet, yellow, orange, red);
+    /* Makes text transparent, to reveal background gradient */
+    -webkit-background-clip: text; 
+    color: transparent;
+    /* ensures the color only covers the width of the text */
+    display: inline-block;
+    text-transform: uppercase;
 }
 
 /* Hero section*/
@@ -104,8 +119,7 @@ main {
 
 #cover-text {
     /*last value sets opacity to semi-transparent*/
-    /*background-color: rgba(33, 158, 188, 0.7);*/
-    background-color: rgba(255, 183, 3, 0.6);
+    background-color: rgba(33, 158, 188, 0.7);
     font-size: 120%;
     position: absolute;
     top: 20px;
@@ -114,6 +128,14 @@ main {
     padding-left: 10px;
 }
 
+hr {
+    /* visual separation from hero to the rest of the body*/
+    border: none;
+    border-width: 3px; 
+    background-color: #565554;
+    margin: 10px 20px; /* Add margin for spacing */
+    border-style: double;
+}
 /* Footer */
 #social-networks {
     text-align: center;
