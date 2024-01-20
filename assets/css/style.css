@@ -294,6 +294,34 @@ hr {
     align-items: center;
     justify-content: center;
 }
+
+/* Contact Us Page*/
+#contact-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-bg {
+
+}
+
+fieldset {
+    border: none;
+    margin-top: 20px;
+}
+
+input {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgba(33, 158, 188, 0.6);
+    color: #f7f7ff;
+    border: none;
+    border-radius: 7px;
+}
+
+
 /* Footer */
 #social-networks {
     text-align: center;
