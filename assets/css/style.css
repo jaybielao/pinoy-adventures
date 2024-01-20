@@ -303,7 +303,18 @@ hr {
 }
 
 #contact-bg {
+    background: url(../images/tree.webp)no-repeat top center/cover;
 
+}
+
+#contact-form-bg {
+    color: #f7f7ff;
+    background-color: rgba(133, 126, 108, 0.7);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: #023047 solid 2px;
 }
 
 fieldset {
@@ -311,9 +322,14 @@ fieldset {
     margin-top: 20px;
 }
 
+legend {
+    font-size: large;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+}
 input {
-    margin-top: 20px;
-    margin-left: 10px;
+    margin: 20px 5px 10px 5px;
     padding: 10px;
     background-color: rgba(33, 158, 188, 0.6);
     color: #f7f7ff;
