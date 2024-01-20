@@ -90,7 +90,8 @@ nav {
 
 /* Main content */
 main {
-    background-color: #8ECAE6;
+    background-color: #219EBC;
+    /*background-color: #8ECAE6;*/
     /* Make main element take up surplus space and push footer down*/
     flex: 1 0 auto;
     margin-top: 41px;
@@ -185,10 +186,6 @@ hr {
     align-items: center;
     justify-content: center;
 }
-
-
-
-
 
 /* Footer */
 #social-networks {
