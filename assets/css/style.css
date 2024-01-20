@@ -289,7 +289,7 @@ hr {
     max-height: 300px;
 }
 
-#flex-image {
+.flex-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -348,7 +348,7 @@ input {
     list-style-type: none;
 }
 
-#social {
+#social, #social2, #social3 {
     margin-right: 10px;
 }
 
