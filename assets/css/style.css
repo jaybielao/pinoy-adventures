@@ -303,7 +303,7 @@ hr {
 }
 
 #contact-bg {
-    background: url(../images/tree.webp)no-repeat top center/cover;
+    background: url(../images/tree.webp)no-repeat center center/cover fixed;
 
 }
 
@@ -331,8 +331,8 @@ legend {
 input {
     margin: 20px 5px 10px 5px;
     padding: 10px;
-    background-color: rgba(33, 158, 188, 0.6);
-    color: #f7f7ff;
+    background-color: #f7f7ff;
+    color: #565554;
     border: none;
     border-radius: 7px;
 }

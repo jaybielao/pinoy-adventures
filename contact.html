@@ -38,7 +38,7 @@
     <!-- Main Content -->
     <main id="contact-bg">
         <div id="contact-video"><iframe width="560" height="315"
-                src="https://www.youtube.com/embed/eSUmkFPln_U?si=Oj0-gK971DJQ2y0Z" title="YouTube video player"
+                src="https://www.youtube.com/embed/eSUmkFPln_U?autoplay=1" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe></div>
@@ -55,7 +55,7 @@
                         <input type="email" id="email-field" name="email" placeholder="Your email" required>
                     </div>
                     <label for="age">Age</label>
-                    <select name="age" id="age">
+                    <select name="age" id="age" required>
                         <option value="20s">20-29</option>
                         <option value="30s">30-39</option>
                         <option value="40s">40-49</option>
@@ -78,6 +78,12 @@
                     <label for="nature-checkbox">Nature</label>
                     <input type="checkbox" id="food-checkbox" name="food">
                     <label for="food-checkbox">Food</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Ask us anything!</legend>
+                    <label for="question">How can we help you?</label>
+                    <br>
+                    <textarea id="question" rows="20" cols="30" name="question" placeholder="eg. what seafood are in abundance in Mindanao?"></textarea>
                 </fieldset>
                 <button type="submit">
                     <strong>Send message</strong>
