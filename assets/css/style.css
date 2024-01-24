@@ -346,13 +346,14 @@ input {
     justify-content: space-between;
     align-items: flex-end;
     list-style-type: none;
+    font-size: xx-large;
 }
 
-#social, #social2, #social3 {
-    margin-right: 10px;
+.social {
+    margin-right: 20px !important;
 }
 
-#back-top {
+.back-top {
     margin-right: 0;
     margin-left: auto;
 }
