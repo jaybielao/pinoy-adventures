@@ -22,9 +22,7 @@ Welcome to Pinoy Adventures, your gateway to the enchanting landscapes and vibra
 
 - __Welcome page Section__
     
-    - the page has a floating message welcoming the users
-
-	- includes an image of xxxxxxx
+    - the page has a floating message welcoming the users with the famous phrase "It's more fun in the Philippines"
 
 ![Welcome Page](xxxxx)
 
@@ -33,7 +31,7 @@ Welcome to Pinoy Adventures, your gateway to the enchanting landscapes and vibra
 
     - The Regions section will give the users some information about the Philippines' three Major regions.
 	
-	- The data under each region will give the user some idea as to what to expect from the area.
+	- The text under each region will give the user some idea as to what to expect from the area.
 
 ![Regions](xxxxx)
 
@@ -69,17 +67,17 @@ Welcome to Pinoy Adventures, your gateway to the enchanting landscapes and vibra
 
 ### Future Implementation
 
-- **Interactive Map Integration**: Explore the Philippines like never before with interactive maps highlighting must-visit destinations and local hotspots.
+- **Interactive Map Integration**: interactive maps highlighting must-visit destinations and local hotspots.
 
 - **User-Generated Content**: Share travel stories and recommendations with the Pinoy Adventures community, creating a dynamic platform for exchanging insights and inspiration.
 
-- **Expand Activities Secion**: Expand the user experience in this section to 
+- **Expand Activities Secion**: Expand the user experience in this section. Add photos of said activity
 
 ## Testing
 
 - __Validator__
 	- HTML
-		- HTML code was meticulously validated using the W3C validator, ensuring compliance with web standards.
+		- HTML code was meticulously validated via direct input using the W3C validator, ensuring compliance with web standards.
 	- CSS
 		- CSS stylesheet underwent thorough validation with the Jigsaw validator, guaranteeing consistency and reliability in style rendering.
 
@@ -88,4 +86,27 @@ Welcome to Pinoy Adventures, your gateway to the enchanting landscapes and vibra
 While no major bugs were encountered during testing, minor adjustments was required to optimise performance on bigger devices or browsers.  
 
 **Some issues were:**
-- Straggling "\" was flagged by the validator. They were located mainly on the top part of the HTML.  Found out they were created during creating my Boilerplate HTML with the help of Emmet
+- Straggling "\" was flagged by the validator. They were located mainly on the top part of the HTML.  Found out they were created during creating my Boilerplate HTML with the help of Emmet.
+
+- My own issue with coding where I would loose track of ideas and get distracted with another section of the project and continue coding there.  I will need a better planning and take time in creating my next project a section at a time.
+
+## Deployment
+
+- Pinoy Adventures is hosted on GitHub Pages, offering users easy access to the platform.
+	-	in GitHub Repo, go to Settings > select Pages > Change Source from Branch to Main >
+	Folder set to /root > hit Save
+
+
+## Credits
+
+ - __Content__
+	- The CSS code for the dropdown menu was taken from the project Love Running. The layout was also influenced by the project
+	- Information from the Home page was taken from Wikipedia
+		- Luzon https://en.wikipedia.org/wiki/Luzon
+		- Visayas https://en.wikipedia.org/wiki/Visayas
+		- Mindanao https://en.wikipedia.org/wiki/Mindanao
+	- Icons from Font Awesome https://fontawesome.com/
+
+- __Media__
+	- Photos used in everypage were free images taken from Pixabay https://pixabay.com/images/search/philippines/
+	- Map of the Major Island Group was taken from https://www.discoverthephilippines.com/map-of-philippine-island-groups/
