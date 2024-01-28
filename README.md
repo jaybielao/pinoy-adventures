@@ -119,6 +119,8 @@ Live link - https://jaybielao.github.io/pinoy-adventures/
 
 	- Icons from Font Awesome https://fontawesome.com/
 
+   	- Code for the rainbow text was taken from Bing Chat
+
 - __Media__
 
 	- Photos used in everypage were free images taken from Pixabay https://pixabay.com/images/search/philippines/
