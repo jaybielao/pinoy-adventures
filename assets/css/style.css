@@ -337,6 +337,22 @@ input {
     border-radius: 7px;
 }
 
+button[type="submit"] {
+    padding: 15px 30px; 
+    font-family: 'Nunito', sans-serif; 
+    font-size: 18px;
+    border: none;
+    background-color: #023047; 
+    color: #f7f7ff; 
+    cursor: pointer;
+    /* Add transition for smoother hover effect */
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    /* Darken button color on hover */
+    background-color: #116466;
+}
 
 /* Footer */
 #social-networks {
