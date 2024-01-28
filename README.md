@@ -18,12 +18,13 @@ Welcome to Pinoy Adventures, your gateway to the enchanting landscapes and vibra
 - __Navigation Bar__
 
     - The full responsive navigation bar, which is identical on all three pages, features links to the Home, About Us, Contact Us page, making it easy to navigate between pages
+    - Links to each page are highlighted whenever a mouse pointer is hovering over it.
 
 ![Navigation Bar](assets/images/navi-bar.png)
 
 - __Welcome page Section__
     
-    - the page has a floating message welcoming the users with the famous phrase "It's more fun in the Philippines"
+    - The page has a floating message welcoming the users with the famous phrase "It's more fun in the Philippines"
 
 ![Welcome Page](assets/images/welcome-page.png)
 
@@ -73,16 +74,19 @@ Welcome to Pinoy Adventures, your gateway to the enchanting landscapes and vibra
 
 - **User-Generated Content**: Share travel stories and recommendations with the Pinoy Adventures community, creating a dynamic platform for exchanging insights and inspiration.
 
-- **Expand Activities Secion**: Expand the user experience in this section. Add photos of said activity
+- **Expand Activities Section**: Expand the user experience in this section. Add photos of said activity
 
 
 ## Testing
 
 - __Validator__
-	- HTML
+	- HTML (W3C)
 		- HTML code was meticulously validated via direct input using the W3C validator, ensuring compliance with web standards.
-	- CSS
+	- CSS  (Jigsaw)
 		- CSS stylesheet underwent thorough validation with the Jigsaw validator, guaranteeing consistency and reliability in style rendering.
+    	- Lighthouse
+       
+![Lighthouse](assets/images/lighthouse.png)
 
 **Known Issues**
 
@@ -101,7 +105,7 @@ While no major bugs were encountered during testing, minor adjustments was requi
 		- select Pages
 		- Change Source from Branch to Main
 		- Folder set to /root
-		- hit Save
+		- Hit Save
 
 Live link - https://jaybielao.github.io/pinoy-adventures/
 
@@ -120,6 +124,8 @@ Live link - https://jaybielao.github.io/pinoy-adventures/
 	- Icons from Font Awesome https://fontawesome.com/
 
    	- Code for the rainbow text was taken from Bing Chat
+  
+   	- Font from Google fonts
 
 - __Media__
 
