@@ -11,6 +11,7 @@ Derived from the term "Filipino," "Pinoy" is a colloquial term used to refer to 
 Welcome to Pinoy Adventures, your gateway to the enchanting landscapes and vibrant culture of the Philippines. Designed to inspire and inform travelers, Pinoy Adventures offers a curated selection of experiences, from idyllic beach retreats to exhilarating mountain hikes, ensuring an unforgettable journey through the archipelago.
 
 
+![Mockup](assets/images/mockup.png)
 
 ## Key Features
 
@@ -18,13 +19,13 @@ Welcome to Pinoy Adventures, your gateway to the enchanting landscapes and vibra
 
     - The full responsive navigation bar, which is identical on all three pages, features links to the Home, About Us, Contact Us page, making it easy to navigate between pages
 
-![Navigation Bar](xxxxx)
+![Navigation Bar](assets/images/navi-bar.png)
 
 - __Welcome page Section__
     
     - the page has a floating message welcoming the users with the famous phrase "It's more fun in the Philippines"
 
-![Welcome Page](xxxxx)
+![Welcome Page](assets/images/welcome-page.png)
 
 
 - __Major Regions Section__
@@ -33,7 +34,7 @@ Welcome to Pinoy Adventures, your gateway to the enchanting landscapes and vibra
 	
 	- The text under each region will give the user some idea as to what to expect from the area.
 
-![Regions](xxxxx)
+![Regions](assets/images/regions.png)
 
 - __Activities__
 
@@ -41,7 +42,7 @@ Welcome to Pinoy Adventures, your gateway to the enchanting landscapes and vibra
 
 	- This section will remind users of available activities 
 
-![Activity](xxxxx)
+![Activity](assets/images/activity.png)
 
 - __Footer__
 
@@ -49,13 +50,13 @@ Welcome to Pinoy Adventures, your gateway to the enchanting landscapes and vibra
 
 	- The footer also contains a back-to-top button for users visiting the site with a small screen real state.
 
-![Footer](xxxxx)
+![Footer](assets/images/footer.png)
 
 - __About Us Page__
 
 	- This page will introduce the "team".
 
-![About Us](xxxxx)
+![About Us](assets/images/about-us-page.png)
 
 - __Contact Us Page__
 
@@ -63,7 +64,8 @@ Welcome to Pinoy Adventures, your gateway to the enchanting landscapes and vibra
 
 	- This page also has a video for users to watch while filling in the form.
 
-![Contact Us](xxxxx)
+![Contact Us](assets/images/contact-us-page.png)
+
 
 ### Future Implementation
 
@@ -72,6 +74,7 @@ Welcome to Pinoy Adventures, your gateway to the enchanting landscapes and vibra
 - **User-Generated Content**: Share travel stories and recommendations with the Pinoy Adventures community, creating a dynamic platform for exchanging insights and inspiration.
 
 - **Expand Activities Secion**: Expand the user experience in this section. Add photos of said activity
+
 
 ## Testing
 
@@ -90,23 +93,34 @@ While no major bugs were encountered during testing, minor adjustments was requi
 
 - My own issue with coding where I would loose track of ideas and get distracted with another section of the project and continue coding there.  I will need a better planning and take time in creating my next project a section at a time.
 
+
 ## Deployment
 
 - Pinoy Adventures is hosted on GitHub Pages, offering users easy access to the platform.
-	-	in GitHub Repo, go to Settings > select Pages > Change Source from Branch to Main >
-	Folder set to /root > hit Save
+	-	Steps : In GitHub Repo, go to Settings 
+		- select Pages
+		- Change Source from Branch to Main
+		- Folder set to /root
+		- hit Save
+
+Live link - https://jaybielao.github.io/pinoy-adventures/
 
 
 ## Credits
 
  - __Content__
 	- The CSS code for the dropdown menu was taken from the project Love Running. The layout was also influenced by the project
+
 	- Information from the Home page was taken from Wikipedia
+
 		- Luzon https://en.wikipedia.org/wiki/Luzon
 		- Visayas https://en.wikipedia.org/wiki/Visayas
 		- Mindanao https://en.wikipedia.org/wiki/Mindanao
+
 	- Icons from Font Awesome https://fontawesome.com/
 
 - __Media__
+
 	- Photos used in everypage were free images taken from Pixabay https://pixabay.com/images/search/philippines/
+
 	- Map of the Major Island Group was taken from https://www.discoverthephilippines.com/map-of-philippine-island-groups/
