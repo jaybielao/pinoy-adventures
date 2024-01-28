@@ -124,3 +124,5 @@ Live link - https://jaybielao.github.io/pinoy-adventures/
 	- Photos used in everypage were free images taken from Pixabay https://pixabay.com/images/search/philippines/
 
 	- Map of the Major Island Group was taken from https://www.discoverthephilippines.com/map-of-philippine-island-groups/
+
+   	- Photos of the Team were AI generated with the use of Bing chat
